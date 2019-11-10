@@ -1,6 +1,6 @@
 {
   "name": "alfred-workflow-kibela",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "alfred workflow for searching kibela notes",
   "repository": "tomoyukikashiro/alfred-workflow-kibela",
   "author": {
