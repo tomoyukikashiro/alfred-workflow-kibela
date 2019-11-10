@@ -1,0 +1,35 @@
+{
+  "name": "alfred-workflow-kibela",
+  "version": "0.0.0",
+  "description": "alfred workflow for searching kibela notes",
+  "repository": "tomoyukikashiro/alfred-workflow-kibela",
+  "author": {
+    "name": "Tomoyuki Kashiro",
+    "email": "tomoyukikashiro@gmail.com",
+    "url": "tomoyukikashiro.me"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "alfred",
+    "kibela"
+  ],
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.9.1",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "node-fetch": "^2.6.0"
+  }
+}
